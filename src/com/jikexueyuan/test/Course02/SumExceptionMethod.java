@@ -1,7 +1,7 @@
-package com.jikexueyuan.test;
+package com.jikexueyuan.test.Course02;
 
 /**
- * 递归调用普通函数，并捕获异常
+ * 递归调用普�?函数，并捕获异常
  */
 public class SumExceptionMethod {
 private int n;

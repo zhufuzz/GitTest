@@ -1,6 +1,6 @@
-package com.jikexueyuan.test;
+package com.jikexueyuan.test.Course02;
 /**
- * 递归调用构造函数，并捕获异常
+ * 递归调用构�?函数，并捕获异常
  */
 public class SumExceptionConstructor {
 public static int n;

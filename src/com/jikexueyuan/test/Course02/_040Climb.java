@@ -1,10 +1,10 @@
-package com.jikexueyuan.test;
+package com.jikexueyuan.test.Course02;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
- *爬楼梯问题
+ *爬楼梯问�?
  */
 public class _040Climb {
 public int count=0;
@@ -23,7 +23,7 @@ public int fib01(int n){
 	}
 }
 /**
- * 递归算法 一行
+ * 递归算法 �?��
  */
 public int fib02(int n){
 	return n==1||n==2?n:fib02(n-1)+fib02(n-2);
@@ -50,7 +50,7 @@ public int fib03(int n){
 	}
 }
 /**
- * 动态规划法
+ * 动�?规划�?
  */
 public int fib04(int n){
 	if(n==1||n==2){
@@ -84,7 +84,7 @@ public int fib05(int n){
 	}
 }
 /**
- * 通项公式法
+ * 通项公式�?
  */
 public int fib06(int n){
 	if(n==1||n==2){
@@ -104,7 +104,7 @@ public void test(){
     int result=fib01(n);
     System.out.println(result);
     System.out.println(count);
-    //估计上限与下限
+    //估计上限与下�?
     Assert.assertTrue(count<=Math.pow(2, n)&&count>=Math.pow(2, n/2));
 }
 }

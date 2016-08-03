@@ -1,4 +1,4 @@
-package com.jikexueyuan.test;
+package com.jikexueyuan.test.Course02;
 
 import org.junit.Test;
 

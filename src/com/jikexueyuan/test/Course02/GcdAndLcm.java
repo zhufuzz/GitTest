@@ -1,10 +1,10 @@
-package com.jikexueyuan.test;
+package com.jikexueyuan.test.Course02;
 
 import org.junit.Test;
 
 public class GcdAndLcm {
 /**
- * 最大公约数的递推算法
+ * �?��公约数的递推算法
  */
 public int gcd01(int m,int n){
 	int a=Math.max(m, n);
@@ -20,7 +20,7 @@ public int gcd01(int m,int n){
 	return n;
 }
 /**
- * 最大公约数的递归算法
+ * �?��公约数的递归算法
  */
 public int gcd02(int m,int n){
 	/*int a=Math.max(m, n);
@@ -33,7 +33,7 @@ public int gcd02(int m,int n){
 	return m>=n?m%n==0?n:gcd02(n, m%n):n%m==0?m:gcd02(m, n%m);
 }
 /**
- * 最小公倍数
+ * �?��公�?�?
  */
 public int lcm(int m,int n){
 	return m*n/gcd01(m, n);

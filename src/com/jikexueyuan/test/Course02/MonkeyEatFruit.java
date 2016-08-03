@@ -1,4 +1,4 @@
-package com.jikexueyuan.test;
+package com.jikexueyuan.test.Course02;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,8 +13,8 @@ public class MonkeyEatFruit {
  */
 public int eat01(int n){
 	int a=1;
-	//也可以这样考虑,“第1天开始吃桃子，连续吃了n-1天”
-	//写成for(int i=1;i<=n-1;i++)，无所谓，结果一样
+	//也可以这样�?�?“第1天开始吃桃子，连续吃了n-1天�?
+	//写成for(int i=1;i<=n-1;i++)，无�?��，结果一�?
 	for(int i=2;i<=n;i++){
 		a=2*a+2;
 	}
@@ -26,7 +26,7 @@ public int eat01(int n){
 public int eat02(int n){
 	System.out.println("f("+n+")压栈");
 	if(n==1){
-		System.out.println("此时函数栈达到最大深度!");
+		System.out.println("此时函数栈达到最大深�?");
 		System.out.println("f("+n+")弹栈");
 		return 1;
 	}else{
@@ -37,14 +37,14 @@ public int eat02(int n){
 }
 /**
  * 递归算法
- * 用三元运算符把代码简化为一行
+ * 用三元运算符把代码简化为�?��
  */
 public int eat03(int n){
 	return n==1?1:eat03(n-1)*2+2;
 }
 /**
- * 模拟猴子吃桃的过程
- * 用断言验证正确性
+ * 模拟猴子吃桃的过�?
+ * 用断�?��证正确�?
  */
 public void check(int n,int num){
 	int a=num;
