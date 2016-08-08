@@ -5,6 +5,7 @@ import java.util.Comparator;
 import org.junit.Test;
 
 public class TestList {
+	
 @SuppressWarnings("unused")
 @Test
 public void testNode01(){
@@ -13,6 +14,7 @@ public void testNode01(){
 	ListNode<Integer> p2=new ListNode<Integer>(2, p3);
 	ListNode<Integer> p1=new ListNode<Integer>(1, p2);
 }
+
 @SuppressWarnings("unused")
 @Test
 public void testNode02(){
@@ -20,7 +22,7 @@ public void testNode02(){
 			new ListNode<Integer>(3, new ListNode<Integer>(4, null))));
 }
 /**
- * 测试：单链表的功�?
+ * 测试：单链表的功能
  */
 @Test
 public void testMiniList(){
@@ -37,7 +39,7 @@ public void testMiniList(){
 	System.out.println(list.get(4));
 }
 /**
- * 测试：�?序打印链�?
+ * 测试：顺序打印链表
  */
 @Test
 public void testPrintReverse(){
@@ -49,7 +51,7 @@ public void testPrintReverse(){
 	list.printInverseRecursive();
 }
 /**
- * 测试：获取链表的�?��元素，整�?
+ * 测试：获取链表的节点元素，整数
  */
 @Test
 public void testMaxInteger(){
@@ -59,7 +61,7 @@ public void testMaxInteger(){
 	System.out.println(list.getMax());
 }
 /**
- * 测试：获取链表的�?��元素，整形普通类�?
+ * 测试：获取链表的节点元素，整形普通类型
  */
 @Test
 public void testMaxPerson(){

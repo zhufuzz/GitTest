@@ -5,11 +5,11 @@ import org.junit.Test;
 import com.jikexueyuan.Course08_listNode.ListNode;
 
 /**
- * 寻找链表的�?数第N个节�?
+ * 寻找链表的�?数第N个节�?
  */
 public class NthNodeFromEndOfList {
 	/**
-	 *取得链表的长�?
+	 *取得链表的长度
 	 */
 	public int lengthOfList(ListNode head) {
 		int m = 0;
@@ -36,7 +36,7 @@ public class NthNodeFromEndOfList {
 		}
 	}
 	/**
-	 * 方法2，双指针，遍历一�?
+	 * 方法2，双指针，遍历一�?
 	 */
 	public ListNode find02(ListNode head, int n) {
 		if (head == null) {
